@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "683698279785",
+    "project_id": "login-implementation-bc785",
+    "storage_bucket": "login-implementation-bc785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683698279785:android:e09ed9c8ee836ec01a59f8",
+        "android_client_info": {
+          "package_name": "com.indoriajs.loginimplementation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683698279785-vsma0gto64nhatpc7fsebdvi7d2fq6np.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indoriajs.loginimplementation",
+            "certificate_hash": "32ecb8b99655894a216b9477f85aad63d2a6ca3b"
+          }
+        },
+        {
+          "client_id": "683698279785-77mb9h15rfq11lv1endi0lve1m1rpa3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcCBpQiWtcQjbVOxO1eyViw4QrB4tq0IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683698279785-77mb9h15rfq11lv1endi0lve1m1rpa3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

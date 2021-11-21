@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EADF"
+    tools:context=".activities.StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:background="#FD0000"
+        app:layout_constraintBottom_toTopOf="@+id/sUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/socialx_startactivity_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sInBtn"
+        android:layout_width="214sp"
+        android:layout_height="82sp"
+        android:layout_marginBottom="561dp"
+        android:background="@drawable/test"
+        android:text="@string/sInBtn"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sUpBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sUpBtn"
+        android:layout_width="214dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="561dp"
+        android:background="@drawable/test"
+        android:text="@string/sUpBtn"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sInBtn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <FrameLayout
+        android:id="@+id/flfragmentView"
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/start_activity_bg"
+        android:isScrollContainer="true"
+        app:layout_constraintBottom_toTopOf="@+id/checkAuth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sInBtn">
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkAuth"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/sign_in_bg"
+        android:text="@string/sign_in_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flfragmentView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

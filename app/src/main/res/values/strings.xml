@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Login Implementation</string>
+
+    <!-- Start Activity -->
+    <string name="sInBtn">Sign In</string>
+    <string name="sUpBtn">Sign Up</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="create_acc">Create Account</string>
+
+    <!-- Sign In Fragment -->
+    <string name="startActivity_SignIn">Sign in to your Account</string>
+    <string name="emailID">Email ID</string>
+    <string name="email_hint">JohnDoe123@gmail.com</string>
+    <string name="pass">Password</string>
+    <string name="pass_hint">*********</string>
+    <string name="forgot_pass">Forgot Password?</string>
+
+    <!-- Sign Up Fragment -->
+    <string name="createACC">Create an \nAccount</string>
+    <string name="nameHint">John Doe</string>
+    <string name="Name">Name</string>
+    <string name="ContNo">Contact no</string>
+    <string name="ContHint">9876543210</string>
+
+    <!-- Home Screen -->
+    <string name="home">Home</string>
+    <string name="logout">LogOut</string>
+
+    <string name="s1">Scroll 1</string>
+    <string name="default_web_client_i">683698279785-77mb9h15rfq11lv1endi0lve1m1rpa3b.apps.googleusercontent.com</string>
+</resources>

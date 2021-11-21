@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentContainerView"
+        android:name="com.indoriajs.loginimplementation.fragments.TopNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_top_navigation" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="678dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentContainerView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/greenbox" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:contentDescription="@string/s1"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="249dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pinkbox" />
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redbox" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="410dp"
+                android:layout_height="164dp"
+                android:contentDescription="@string/s1"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="421dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redbox" />
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pinkbox" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:contentDescription="@string/s1"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="249dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pinkbox" />
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redbox" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="410dp"
+                android:layout_height="164dp"
+                android:contentDescription="@string/s1"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="421dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/redbox" />
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pinkbox" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
